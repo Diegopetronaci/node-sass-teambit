@@ -1,0 +1,34 @@
+.center{
+    .container_nav{
+        height: 100px;
+        border-bottom: 1px solid black;
+    }
+    .img_1{
+        max-width: 150px;
+    }
+    li{
+        margin-right: 20px;
+        line-height: 75px;
+        &:hover {
+                cursor: pointer;
+        }
+        .btn{
+            border: 1px solid blue;
+            padding: 0px 10px;
+            border-radius: 5px;
+            line-height: 15px;
+            margin-top: 15px;
+            &:hover {
+                background-color: rgb(233, 230, 230);
+                cursor: pointer;
+            }
+            p{
+                color: $link;
+            }
+        }
+        img {
+            width: 25px;
+            margin-right: 5px;
+        }  
+    }
+}
