@@ -1,0 +1,50 @@
+header {
+    h1{
+        color: $primaryColor;
+    }
+    .hero_text{
+        width: 50%;
+        font-size: 29px;
+        color: $primaryColor;
+        .container_header{
+            .btn_log{
+                color: white;
+                background-color: $link;
+                font-size: 20px;
+                padding: 5px 30px;
+                border-radius: 10px;
+                height: 25px;
+                margin: auto;
+                &:hover{
+                    cursor: pointer;
+                }
+                img{
+                    width: 19px;
+                    height: 19px;
+                }
+                span{
+                    padding: 3px;
+                    /* 
+                    color: white;
+                    background-color: $link;
+                    font-size: 20px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    */
+                } 
+            }
+            p{
+                font-size: 25px;
+                color: $primaryColor;
+            }
+            div{
+                font-size: 20px;
+            }   
+        }
+    }
+    img{
+        margin: auto;
+        width: 50%;
+        height: 100%;
+    }
+}

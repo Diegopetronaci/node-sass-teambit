@@ -9,11 +9,12 @@
     li{
         margin-right: 20px;
         line-height: 75px;
+        color: $primaryColor;
         &:hover {
                 cursor: pointer;
         }
         .btn{
-            border: 1px solid blue;
+            border: 1px solid $link;
             padding: 0px 10px;
             border-radius: 5px;
             line-height: 15px;

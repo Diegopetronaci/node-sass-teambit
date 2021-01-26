@@ -34,12 +34,13 @@ li {
 .center li {
   margin-right: 20px;
   line-height: 75px;
+  color: #58402c;
 }
 .center li:hover {
   cursor: pointer;
 }
 .center li .btn {
-  border: 1px solid blue;
+  border: 1px solid #2c4792;
   padding: 0px 10px;
   border-radius: 5px;
   line-height: 15px;
@@ -50,9 +51,56 @@ li {
   cursor: pointer;
 }
 .center li .btn p {
-  color: blue;
+  color: #2c4792;
 }
 .center li img {
   width: 25px;
   margin-right: 5px;
+}
+
+header h1 {
+  color: #58402c;
+}
+header .hero_text {
+  width: 50%;
+  font-size: 29px;
+  color: #58402c;
+}
+header .hero_text .container_header .btn_log {
+  color: white;
+  background-color: #2c4792;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  height: 25px;
+  margin: auto;
+}
+header .hero_text .container_header .btn_log:hover {
+  cursor: pointer;
+}
+header .hero_text .container_header .btn_log img {
+  width: 19px;
+  height: 19px;
+}
+header .hero_text .container_header .btn_log span {
+  padding: 3px;
+  /* 
+  color: white;
+  background-color: $link;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  */
+}
+header .hero_text .container_header p {
+  font-size: 25px;
+  color: #58402c;
+}
+header .hero_text .container_header div {
+  font-size: 20px;
+}
+header img {
+  margin: auto;
+  width: 50%;
+  height: 100%;
 }
