@@ -81,8 +81,17 @@
   margin: auto;
 }
 
+.margin_auto {
+  margin: auto;
+}
+
 .d_flex {
   display: flex;
+}
+
+.d_flex_reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .d_flex_column {
@@ -115,37 +124,37 @@ li {
   list-style: none;
 }
 
-.center .container_nav {
+.nav .container_nav {
   height: 100px;
   border-bottom: 1px solid black;
 }
-.center .img_1 {
+.nav .img_1 {
   max-width: 150px;
 }
-.center li {
+.nav li {
   margin-right: 20px;
   line-height: 100px;
   color: #58402c;
 }
-.center li:hover {
+.nav li:hover {
   cursor: pointer;
 }
-.center li .btn {
+.nav li .btn {
   border: 1px solid #2c4792;
   padding: 5px 10px;
   border-radius: 5px;
   line-height: 15px;
   margin-top: 33px;
 }
-.center li .btn:hover {
+.nav li .btn:hover {
   background-color: #e9e6e6;
   cursor: pointer;
 }
-.center li .btn p {
+.nav li .btn p {
   color: #2c4792;
   padding: 5px;
 }
-.center li img {
+.nav li img {
   width: 25px;
   margin-right: 5px;
 }
@@ -224,28 +233,166 @@ header img {
   margin-bottom: 100px;
 }
 
-.main_2 {
+.main_2, .main_3 {
   max-width: 85%;
 }
-.main_2 div img {
+.main_2 div img, .main_3 div img {
   width: 700px;
 }
-.main_2 .text h2 {
+.main_2 .text h2, .main_3 .text h2 {
   color: #58402c;
-  font-size: 29px;
+  font-size: 40px;
   margin-bottom: 50px;
-  width: 250px;
+  width: 350px;
   line-height: 1.5em;
 }
-.main_2 .text p {
+.main_2 .text p, .main_3 .text p {
   color: #58402c;
-  font-size: 20px;
-  margin-bottom: 50px;
-  width: 250px;
-  line-height: 1.5em;
-}
-.main_2 .text img {
-  margin-top: 50px;
-  width: 400px;
+  font-size: 27px;
   margin-bottom: 25px;
+  width: 350px;
+  line-height: 1.5em;
+}
+.main_2 .text img, .main_3 .text img {
+  margin-top: 50px;
+  width: 350px;
+  margin-bottom: 25px;
+}
+.main_2 .text a, .main_3 .text a {
+  font-size: 20px;
+}
+
+.main_3 {
+  margin-left: 15%;
+}
+
+/* .main_3{
+    max-width: 85%;
+    margin-left: 15%;
+    div{
+        img{
+            width: 700px;
+        }
+    }
+    .text{
+        h2{
+            @include titoletti;
+        }
+        p{
+            @include sottotitoletti;
+        }
+        img{
+            margin-top: 50px;
+            width: 350px;
+            margin-bottom: 25px;
+        }
+    }
+} */
+.main_4 {
+  background-color: #ffe7d2;
+}
+.main_4 .container {
+  margin: auto;
+}
+.main_4 .container h1 {
+  color: #58402c;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 15px;
+  max-width: 450px;
+  font-size: 40px;
+}
+.main_4 .container .container_messaggio {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+.main_4 .container .btn_log {
+  color: white;
+  background-color: #2c4792;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  height: 35px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.main_4 .container .btn_log:hover {
+  cursor: pointer;
+}
+.main_4 .container .btn_log img {
+  width: 19px;
+  height: 19px;
+}
+.main_4 .container .btn_log span {
+  padding: 3px;
+  /* 
+  color: white;
+  background-color: $link;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  */
+}
+.main_4 .container p {
+  font-size: 25px;
+  color: #58402c;
+  padding: 5px;
+}
+.main_4 .container div {
+  font-size: 20px;
+  margin-bottom: 60px;
+  /* input{
+      border: none;
+      background-color: $backgroundPrimary;
+  } */
+}
+
+footer .container {
+  margin-top: 100px;
+}
+footer .container .text_left {
+  width: 30%;
+}
+footer .container .text_left img {
+  height: 50px;
+  padding: 8px;
+}
+footer .container .text_left h4 {
+  line-height: 1.5em;
+  padding: 5px;
+  color: #58402c;
+  width: 250px;
+}
+footer .container .text_left h4 span {
+  color: #2c4792;
+  font-size: 0.8em;
+}
+footer .container .text_right {
+  width: 70%;
+}
+footer .container div h3 {
+  color: #58402c;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+footer .container div ul {
+  margin: 0 15px;
+}
+footer .container div ul li {
+  color: #58402c;
+  margin: 15px 0px;
+}
+footer .container .final_text {
+  margin-left: 6%;
+}
+footer .container .final_text p {
+  width: 55%;
+  color: #58402c;
+  line-height: 1.5em;
 }

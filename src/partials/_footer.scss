@@ -1,0 +1,49 @@
+//footer
+
+footer{
+    .container{
+        margin-top: 100px;
+        .text_left{
+            width: 30%;
+            img{
+                height: 50px;
+                padding: 8px;
+            }
+            h4{
+                span{
+                    color: $link;
+                    font-size: 0.8em;
+                }
+                line-height: 1.5em;
+                padding: 5px;
+                color: $primaryColor;
+                width: 250px;
+            }
+        }
+        .text_right{
+            width: 70%;
+        }
+        div {
+            h3{
+                color: $primaryColor;
+                font-size: 27px;
+                margin-bottom: 20px;
+            }
+            ul{
+                margin: 0 15px;
+                li{
+                color: $primaryColor;
+                margin: 15px 0px;
+                }
+            }
+        }
+        .final_text{
+            margin-left: 6%;
+            p{
+                width: 55%;
+                color: $primaryColor;
+                line-height: 1.5em;
+            }
+        }
+    }
+}

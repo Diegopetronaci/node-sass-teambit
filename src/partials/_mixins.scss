@@ -1,14 +1,14 @@
 @mixin titoletti {
     color: $primaryColor;
-    font-size: 29px;
+    font-size: 40px;
     margin-bottom: 50px;
-    width: 250px;
+    width: 350px;
     line-height: 1.5em;
 }
 @mixin sottotitoletti {
     color: $primaryColor;
-    font-size: 20px;
-    margin-bottom: 50px;
-    width: 250px;
+    font-size: 27px;
+    margin-bottom: 25px;
+    width: 350px;
     line-height: 1.5em;
 }
