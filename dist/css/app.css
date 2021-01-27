@@ -98,6 +98,19 @@
   justify-content: space-between;
 }
 
+.start {
+  justify-content: start;
+}
+
+.end {
+  justify-content: end;
+}
+
+a {
+  text-decoration: none;
+  color: #2c4792;
+}
+
 li {
   list-style: none;
 }
@@ -209,4 +222,30 @@ header img {
   margin-top: 45px;
   height: 400px;
   margin-bottom: 100px;
+}
+
+.main_2 {
+  max-width: 85%;
+}
+.main_2 div img {
+  width: 700px;
+}
+.main_2 .text h2 {
+  color: #58402c;
+  font-size: 29px;
+  margin-bottom: 50px;
+  width: 250px;
+  line-height: 1.5em;
+}
+.main_2 .text p {
+  color: #58402c;
+  font-size: 20px;
+  margin-bottom: 50px;
+  width: 250px;
+  line-height: 1.5em;
+}
+.main_2 .text img {
+  margin-top: 50px;
+  width: 400px;
+  margin-bottom: 25px;
 }

@@ -29,3 +29,30 @@
         }   
     }
 }
+
+// main 2
+
+.main_2{
+    max-width: 85%;
+    div{
+        img{
+            width: 700px;
+        }
+    }
+    .text{
+        h2{
+            @include titoletti;
+        }
+        p{
+            @include sottotitoletti;
+        }
+        img{
+            margin-top: 50px;
+            width: 400px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+//main_3
+

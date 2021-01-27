@@ -31,6 +31,16 @@
 .space_between {
     justify-content: space-between;
 }
+.start{
+    justify-content: start;
+}
+.end{
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+    color: $link;
+}
 li {
     list-style: none;
 } 
