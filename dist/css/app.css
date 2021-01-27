@@ -1,3 +1,19 @@
+.margin-top-15 {
+  margin-top: 15;
+}
+
+.margin-top-30 {
+  margin-top: 30;
+}
+
+.margin-top-45 {
+  margin-top: 45;
+}
+
+.margin-top-60 {
+  margin-top: 60;
+}
+
 .center {
   width: 85%;
   margin: auto;
@@ -98,6 +114,9 @@ header .hero_text .container_header p {
 }
 header .hero_text .container_header div {
   font-size: 20px;
+}
+header .hero_text .container_header div input {
+  border: none;
 }
 header img {
   margin: auto;

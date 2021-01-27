@@ -1,4 +1,9 @@
 //utility Class
+@for $i from 1 to 5 {
+    .margin-top-#{ $i * 15 }{
+        margin-top: #{ $i * 15 };
+    }
+}
 .center{
     width: 85%;
     margin: auto;
@@ -18,4 +23,4 @@
 }
 li {
     list-style: none;
-}
+} 
