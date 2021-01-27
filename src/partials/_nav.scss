@@ -8,23 +8,24 @@
     }
     li{
         margin-right: 20px;
-        line-height: 75px;
+        line-height: 100px;
         color: $primaryColor;
         &:hover {
                 cursor: pointer;
         }
         .btn{
             border: 1px solid $link;
-            padding: 0px 10px;
+            padding: 5px 10px;
             border-radius: 5px;
             line-height: 15px;
-            margin-top: 15px;
+            margin-top: 33px;
             &:hover {
                 background-color: rgb(233, 230, 230);
                 cursor: pointer;
             }
             p{
                 color: $link;
+                padding: 5px;
             }
         }
         img {

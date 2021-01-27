@@ -1,17 +1,79 @@
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .margin-top-15 {
-  margin-top: 15;
+  margin-top: 15px;
 }
 
 .margin-top-30 {
-  margin-top: 30;
+  margin-top: 30px;
 }
 
 .margin-top-45 {
-  margin-top: 45;
+  margin-top: 45px;
 }
 
 .margin-top-60 {
-  margin-top: 60;
+  margin-top: 60px;
+}
+
+.margin-top-75 {
+  margin-top: 75px;
+}
+
+.margin-top-90 {
+  margin-top: 90px;
+}
+
+.margin-top-105 {
+  margin-top: 105px;
+}
+
+.margin-top-120 {
+  margin-top: 120px;
+}
+
+.margin-top-135 {
+  margin-top: 135px;
+}
+
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.padding-top-45 {
+  padding-top: 45px;
+}
+
+.padding-top-60 {
+  padding-top: 60px;
+}
+
+.padding-top-75 {
+  padding-top: 75px;
+}
+
+.padding-top-90 {
+  padding-top: 90px;
+}
+
+.padding-top-105 {
+  padding-top: 105px;
+}
+
+.padding-top-120 {
+  padding-top: 120px;
+}
+
+.padding-top-135 {
+  padding-top: 135px;
 }
 
 .center {
@@ -49,7 +111,7 @@ li {
 }
 .center li {
   margin-right: 20px;
-  line-height: 75px;
+  line-height: 100px;
   color: #58402c;
 }
 .center li:hover {
@@ -57,10 +119,10 @@ li {
 }
 .center li .btn {
   border: 1px solid #2c4792;
-  padding: 0px 10px;
+  padding: 5px 10px;
   border-radius: 5px;
   line-height: 15px;
-  margin-top: 15px;
+  margin-top: 33px;
 }
 .center li .btn:hover {
   background-color: #e9e6e6;
@@ -68,6 +130,7 @@ li {
 }
 .center li .btn p {
   color: #2c4792;
+  padding: 5px;
 }
 .center li img {
   width: 25px;
@@ -88,8 +151,9 @@ header .hero_text .container_header .btn_log {
   font-size: 20px;
   padding: 5px 30px;
   border-radius: 10px;
-  height: 25px;
+  height: 35px;
   margin: auto;
+  margin-bottom: 15px;
 }
 header .hero_text .container_header .btn_log:hover {
   cursor: pointer;
@@ -122,4 +186,27 @@ header img {
   margin: auto;
   width: 50%;
   height: 100%;
+}
+
+.main_1 {
+  background-color: #ffe7d2;
+}
+.main_1 .container h2 {
+  color: #58402c;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  font-size: 30px;
+}
+.main_1 .container div div img {
+  height: 150px;
+  margin: auto;
+}
+.main_1 .container div div p {
+  color: #58402c;
+}
+.main_1 .container .last_img img {
+  margin-top: 45px;
+  height: 400px;
+  margin-bottom: 100px;
 }

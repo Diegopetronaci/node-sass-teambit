@@ -1,0 +1,31 @@
+//main 1
+.main_1{
+    background-color: $backgroundPrimary;
+    .container{
+        h2{
+            color: $primaryColor;
+            text-align: center;
+            margin: auto;
+            max-width: 500px;
+            font-size: 30px;
+        }
+        div{
+            div{
+                img{  
+                height: 150px;
+                margin: auto;
+                }
+                p{
+                    color: $primaryColor;
+                }
+            }
+        }
+        .last_img{
+            img{
+                margin-top: 45px;
+                height: 400px;
+                margin-bottom: 100px;
+            }
+        }   
+    }
+}

@@ -1,7 +1,17 @@
 //utility Class
-@for $i from 1 to 5 {
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+@for $i from 1 to 10 {
     .margin-top-#{ $i * 15 }{
-        margin-top: #{ $i * 15 };
+        margin-top: #{ $i * 15 }px;
+    }
+}
+@for $i from 1 to 10 {
+    .padding-top-#{ $i * 15 }{
+        padding-top: #{ $i * 15 }px;
     }
 }
 .center{
