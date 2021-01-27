@@ -310,7 +310,33 @@ header img {
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 50px;
-  border: 1px solid black;
+  border: 1px solid #2c4792;
+  position: relative;
+}
+.main_4 .container .container_messaggio i {
+  color: #2c4792;
+  font-size: 1.6em;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+.main_4 .container .container_messaggio p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.main_4 .container .container_messaggio .fondo_text img {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+.main_4 .container .container_messaggio .fondo_text div {
+  padding-top: 15px;
+}
+.main_4 .container .container_messaggio .fondo_text div p {
+  color: #58402c;
+}
+.main_4 .container .container_messaggio .fondo_text div span {
+  color: #2c4792;
 }
 .main_4 .container .btn_log {
   color: white;
