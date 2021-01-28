@@ -246,15 +246,15 @@ header img {
   color: #58402c;
   font-size: 40px;
   margin-bottom: 50px;
-  width: 350px;
   line-height: 1.5em;
+  width: 350px;
 }
 .main_2 .text p, .main_3 .text p {
   color: #58402c;
   font-size: 27px;
   margin-bottom: 25px;
-  width: 350px;
   line-height: 1.5em;
+  width: 350px;
 }
 .main_2 .text img, .main_3 .text img {
   margin-top: 50px;
@@ -439,13 +439,14 @@ footer .container .final_text p {
   }
 
   header {
-    display: block;
+    flex-wrap: wrap;
   }
   header h1 {
     color: #58402c;
   }
   header .hero_text {
     font-size: 20px;
+    width: 100%;
   }
   header .hero_text .container_header .btn_log {
     font-size: 14px;
@@ -476,6 +477,58 @@ footer .container .final_text p {
     margin: auto;
     width: 100%;
     height: 100%;
+  }
+
+  .main_1 div div {
+    flex-wrap: wrap;
+    margin: 25px 70px;
+  }
+
+  .main_2, .main_3 {
+    flex-wrap: wrap;
+  }
+  .main_2 div img, .main_3 div img {
+    width: 100vw;
+    margin: auto;
+  }
+  .main_2 .text h2, .main_3 .text h2 {
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+  }
+  .main_2 .text p, .main_3 .text p {
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+  }
+  .main_2 .text a, .main_3 .text a {
+    margin: auto;
+  }
+
+  footer .container {
     display: block;
+  }
+  footer .container .text_left {
+    width: 100%;
+  }
+  footer .container .text_left img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+  footer .container .text_left h4 {
+    width: 100%;
+    margin-top: 25px;
+  }
+  footer .container .text_right {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer .container .text_right .final_text h3 {
+    text-align: center;
+  }
+  footer .container .text_right .final_text p {
+    width: 100%;
   }
 }

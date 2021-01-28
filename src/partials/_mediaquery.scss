@@ -13,47 +13,109 @@
     }
 
     header {
-        display: block;
-    h1{
-        color: $primaryColor;
-    }
-    .hero_text{
-        font-size: 20px;
-        .container_header{
-            .btn_log{
-                font-size: 14px;
-                height: 35px;
-                width: 200px;
-                img{
-                    width: 15px;
-                    height: 15px;
-                }
-                span{
+        flex-wrap: wrap;
+        h1{
+            color: $primaryColor;
+        }
+        .hero_text{
+            font-size: 20px;
+            width: 100%;
+            .container_header{
+                .btn_log{
+                    font-size: 14px;
+                    height: 35px;
                     width: 200px;
-                    /* 
-                    color: white;
-                    background-color: $link;
-                    font-size: 20px;
-                    padding: 5px;
-                    border-radius: 10px;
-                    */
-                } 
+                    img{
+                        width: 15px;
+                        height: 15px;
+                    }
+                    span{
+                        width: 200px;
+                        /* 
+                        color: white;
+                        background-color: $link;
+                        font-size: 20px;
+                        padding: 5px;
+                        border-radius: 10px;
+                        */
+                    } 
+                }
+                p{
+                    font-size: 15;
+                }
+                div{
+                    font-size: 15px;
+                }   
             }
-            p{
-                font-size: 15;
-            }
-            div{
-                font-size: 15px;
-            }   
+        }
+        img{
+            margin: auto;
+            width: 100%;
+            height: 100%;
         }
     }
-    img{
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        display: block;
+    .main_1{
+        div {
+            div {
+                flex-wrap: wrap;
+                margin: 25px 70px;
+            }
+        }
     }
-}
+    .main_2, .main_3{
+        flex-wrap: wrap;
+        div{
+            img{
+            width: 100vw;
+            margin: auto;
+            }
+        }
+        .text{
+            h2{
+                width: 100vw;
+                text-align: center;
+                margin: auto;
+            }
+            p{
+                width: 100vw;
+                text-align: center;
+                margin: auto;
+            }
+            a{
+                margin: auto;
+            }
+        }
+    }
+    footer{
+        .container{
+            display: block;
+            .text_left{
+                width: 100%;
+                img{
+                    width: 100px;
+                    height: 100px;
+                    margin-left: 40px;
+                    margin-bottom: 50px;
+                }
+                h4{
+                    width: 100%;
+                    margin-top: 25px;
+                }
+            }
+            .text_right{
+                width: 100%;
+                flex-wrap: wrap;
+                .final_text{
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 360px) {

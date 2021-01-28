@@ -42,9 +42,11 @@
     .text{
         h2{
             @include titoletti;
+            width: 350px;
         }
         p{
             @include sottotitoletti;
+            width: 350px;
         }
         img{
             margin-top: 50px;
